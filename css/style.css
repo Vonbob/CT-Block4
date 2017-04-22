@@ -18,14 +18,24 @@ body {
     left: 0;
     margin: auto;
     width: 800px;
-    height: 80px;
+    height: 200px;
     z-index: 1;
     background-color: dodgerblue;
     color: white;
     border-radius: 4px;
     box-shadow: 2px 2px 8px black;
-    font-family: cursive;
+    font-family: 'Comic Sans MS', cursive;
     text-align: center;
+}
+
+.dream-thought > h1 {
+    font-size: 1.5em;
+    margin-top: 2px;
+}
+
+.dream-thought > p {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .dream {

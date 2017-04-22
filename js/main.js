@@ -7,11 +7,6 @@ var bgColors = ["#2ecc71", "#1abc9c", "#3498db", "#9b59b6", "#34495e", "#f1c40f"
 
 var dreamElems = document.getElementsByClassName("dream");
 
-var setBg = function () {
-    var body = document.body;
-    body.style.background = "";
-};
-
 var showHideDream = function () {
     var i = 0;
     var useColors = bgColors.slice();
@@ -33,6 +28,5 @@ var showHideDream = function () {
     }
 };
 
-setBg();
 showHideDream();
 setInterval(showHideDream, 6000);
